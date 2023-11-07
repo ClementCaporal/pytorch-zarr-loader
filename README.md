@@ -1,5 +1,13 @@
 # pytorch-zarr-loader
 
+## Dataset
+
+original data used for testing:
+
+[Link](https://imagesc.zulipchat.com/user_uploads/16804/85qPFC9O85gLhNmF5KLdqtUx/bsd_val.zarr.zip)
+
+[Notebook for random data](create_random_test_zarr.ipynb)
+
 ## Installation
 
 create env
