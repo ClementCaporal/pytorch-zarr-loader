@@ -6,12 +6,12 @@ from skimage.data import binary_blobs
 from ome_zarr.io import parse_url
 from ome_zarr.writer import write_image
 
-path = "/data/aymanns/test_zarr/test_ngff_image.zarr"
+path = "data/test_ngff_image.zarr"
 os.mkdir(path)
 
 mean_val=10
-size_xy = 128
-size_z = 10
+size_xy = 512
+size_z = 100
 rng = np.random.default_rng(0)
 data = rng.poisson(mean_val, size=(size_z, size_xy, size_xy)).astype(np.uint8)
 
