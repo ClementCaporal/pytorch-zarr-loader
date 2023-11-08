@@ -8,6 +8,7 @@ We tried several solution in particular using or without using dask to load the 
 original data used for testing:[Link](https://imagesc.zulipchat.com/user_uploads/16804/85qPFC9O85gLhNmF5KLdqtUx/bsd_val.zarr.zip)
 But you can also find an example to generate a random data : 
 - [Notebook for random data](create_random_test_zarr.ipynb)
+- [Notebook for huge random data zarr and tiff](create_huge_random_zarr_and_tif)
 
 Proposed loaders:
 - [Fastest loader](example_ZARR.ipynb)
