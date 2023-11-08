@@ -5,13 +5,13 @@ We tried several solution in particular using or without using dask to load the 
 
 ## Dataset
 
-original data used for testing:
+original data used for testing:[Link](https://imagesc.zulipchat.com/user_uploads/16804/85qPFC9O85gLhNmF5KLdqtUx/bsd_val.zarr.zip)
+But you can also find an example to generate a random data : 
+- [Notebook for random data](create_random_test_zarr.ipynb)
 
-[Link](https://imagesc.zulipchat.com/user_uploads/16804/85qPFC9O85gLhNmF5KLdqtUx/bsd_val.zarr.zip)
-
-[Notebook for random data](create_random_test_zarr.ipynb)
-[Fastest loader](example_ZARR.ipynb)
-[Notebook for dask loader](dask_future_loader_zarr.ipynb)
+Proposed loaders:
+- [Fastest loader](example_ZARR.ipynb)
+- [Notebook for dask loader](dask_future_loader_zarr.ipynb)
 
 ## Installation
 
