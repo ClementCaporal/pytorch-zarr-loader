@@ -26,3 +26,7 @@ create test data
 ```bash
 python create_random_test_zarr.py
 ```
+## Similar solutions
+
+Please consider other repo that also load zarr for pytorch
+- https://github.com/TheJacksonLaboratory/zarrdataset
